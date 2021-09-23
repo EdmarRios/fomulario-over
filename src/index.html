@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Models/style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="structure">
+        <form id="form-user">
+            <input  type="text" name="name" placeholder="Nome">
+            <input  type="email" name="email" placeholder="E-mail">
+            <input  type="celular" name="phone" placeholder="Celular" minlength="11">
+            <input type="password" name="password" placeholder="Senha" minlength="6" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <div class="img-container">
+            <img src="" alt="Imagem do formulário">
+        </div>
+    </div>
+    <script src="./Models/user.js"></script>
+    <script src= "./Controllers/UserController.js"></script>
+    <script src="./Models/index.js"></script>
+    
+</body>
+</html>
